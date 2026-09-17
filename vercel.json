@@ -1,5 +1,7 @@
 {
   "rewrites": [
     { "source": "/(.*)", "destination": "/" }
+    { "source": "/blogs", "destination": "rankmy.blog/proxy/saas-portfolio.saasexplainer.online/blogs" },
+    { "source": "/blogs/:path*", "destination": "rankmy.blog/proxy/saas-portfolio.saasexplainer.online/blogs/:path*" }
   ]
 }
